@@ -15,8 +15,11 @@ sites:
     url: https://www.ofi.ca
   - name: CEOTR
     url: https://ceotr.ocean.dal.ca
-  - name: RUNDECK
-    url: https://rundeck.ceotr.ca/menu/home
+  - name: Google DNS 1
+    check: "tcp-ping"
+    url: 8.8.4.4
+    port: 53
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
