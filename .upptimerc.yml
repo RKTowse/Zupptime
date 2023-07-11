@@ -3,12 +3,6 @@ owner: RKTowse # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
   - name: OFI
@@ -17,11 +11,17 @@ sites:
     url: https://ceotr.ocean.dal.ca
   - name: Rundeck
     url: https://rundeck.ceotr.ca/menu/home
-  - name: Rundeck
-    url: https://rundeck.ceotr.ca/menu/home
   - name: data.ceotr.ca
     check: "tcp-ping"
     url: data.ceotr.ca
+    port: 53
+  - name: porky.ocean.dal.ca
+    check: "tcp-ping"
+    url: porky.ocean.dal.ca
+    port: 53
+  - name: prod.ceotr.ca
+    check: "tcp-ping"
+    url: prod.ceotr.ca
     port: 53
 
     
