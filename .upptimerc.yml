@@ -19,10 +19,11 @@ sites:
     url: https://rundeck.ceotr.ca/menu/home
   - name: Rundeck
     url: https://rundeck.ceotr.ca/menu/home
-  - name: Google DNS 1
+  - name: data.ceotr.ca
     check: "tcp-ping"
-    url: 8.8.4.4
+    url: data.ceotr.ca
     port: 53
+
     
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
