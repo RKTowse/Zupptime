@@ -53,17 +53,17 @@ sites:
     url: https://stg.oceangliderscanada.ca 
   - name: CEOTR STG Home Page loads
     url: https://ceotrstg.ocean.dal.ca 
-  - name: "Bedford Basin Time Series STG" 
+  - name: Bedford Basin Time Series STG 
     url: https://ceotrstg.ocean.dal.ca/bbasin 
-  - name: "STG Gliders Page loads from /gliders
+  - name: STG Gliders Page loads from /gliders
     url: https://ceotrstg.ocean.dal.ca/gliders 
   - name: STG Sensor Tracker login 
     url: https://ceotrstg.ocean.dal.ca/sensor_tracker 
   - name: CEOTR Home Page loads
-    url: https://stg.ceotr.ca "CEOTR Home"
-  - name: stg Bedford Basin Time Series"
+    url: https://stg.ceotr.ca CEOTR Home
+  - name: stg Bedford Basin Time Series
     url: https://stg.ceotr.ca/bbasin  
-  - name: "STG Gliders Page 
+  - name: STG Gliders Page 
     url: https://stg.ceotr.ca/gliders
   - name: Sensor Tracker login
     url: https://stg.ceotr.ca/sensor_tracker 
