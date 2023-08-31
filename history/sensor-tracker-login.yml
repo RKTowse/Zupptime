@@ -1,7 +1,7 @@
-url: https://stg.ceotr.ca/sensor_tracker
-status: down
-code: 502
-responseTime: 58
-lastUpdated: 2023-08-31T07:59:10.105Z
+url: https://www.ceotr.ca/sensor_tracker
+status: up
+code: 200
+responseTime: 127
+lastUpdated: 2023-08-31T07:59:19.888Z
 startTime: 2023-07-14T11:09:18.000Z
 generator: Upptime <https://github.com/upptime/upptime>
